@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(`mongodb://127.0.0.1:27017/Hospital_DB`);
+mongoose.connect(`mongodb+srv://rs188162:<password>@cluster0.jvqijcl.mongodb.net/`);
 
 const db = mongoose.connection;
 
